@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 40px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+#team {
+  list-style: none;
+  padding: 0;
+}
+
+#team li {
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #dbeafe;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#team li:hover {
+  background: #bfdbfe;
+}
+
+
+/* Selected state */
+
+.selected {
+  background: #fff3cd !important;
+}

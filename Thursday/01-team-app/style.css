@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-top: 0;
+  color: #333;
+}
+
+.info {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#team {
+  list-style: none;
+  padding: 0;
+}
+
+#team li {
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #e8f0ff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#team li:hover {
+  background: #3770d8;
+}
